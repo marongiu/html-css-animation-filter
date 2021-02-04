@@ -202,7 +202,7 @@
 
 .ex-13-button:hover .ex-13-top-white {
   animation-name: button-top-2;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-timing-function: linear;
 }
 
@@ -212,29 +212,34 @@
     left: 10%;
   }
 
-  25% {
+  20% {
     left: 70%;
+    top: -10%;
+  }
+
+  30% {
+    left: 100%;
+    top: 100%;
   }
 
   50% {
-    left: 100%;
-    top: 0;
+    left: 0;
+    top: 100%;
   }
 
-  75% {
-    top: 100%;
-    right: 10%;
+  70% {
+    top: -10%;
+    left: -10%;
   }
 
   100% {
-    bottom: 0;
-    left: 100%;
+    left: 10%;
   }
 }
 
-/* .ex-13-button:hover .ex-13-bottom-white {
+.ex-13-button:hover .ex-13-bottom-white {
   animation-name: button-bottom-2;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-timing-function: linear;
 }
 
@@ -243,7 +248,27 @@
     right: 20%;
   }
 
+  20% {
+    right: 80%;
+    bottom: -10%;
+  }
+
+  30% {
+    right: 80%;
+    bottom: 80%;
+  }
+
   50% {
-    right: 100%;
-    bottom: 0;
-} */
+    right: 0;
+    bottom: 100%;
+  }
+
+  70% {
+    right: -20%;
+    bottom: -10%;
+  }
+
+  100% {
+    right: 20%;
+  }
+}
