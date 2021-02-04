@@ -202,7 +202,7 @@
 
 .ex-13-button:hover .ex-13-top-white {
   animation-name: button-top-2;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: linear;
 }
 
@@ -240,7 +240,7 @@
 
 .ex-13-button:hover .ex-13-bottom-white {
   animation-name: button-bottom-2;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: linear;
 }
 
